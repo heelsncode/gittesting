@@ -29,7 +29,7 @@ puts "Type done when finished"
 while completion == false 
 	print "Name: "
 	name = gets.chomp
-	if name.downcase = "done"
+	if name.downcase == "done"
 		completion = true 
 		break 
 	end 
@@ -82,5 +82,5 @@ class Product
 end 
 
 
-
+#testing
 
